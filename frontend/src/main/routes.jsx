@@ -10,4 +10,5 @@ export default props => (
         <Route path='/billingCycles' component={BillingCycle} />
         <Redirect from='*' to='/' />
     </Router>
+    
 )
